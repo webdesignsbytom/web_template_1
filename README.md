@@ -1,4 +1,11 @@
-# Dummy Server
+# Template 1
 
-Server to test:
-Azure Devops Pipeline and Get requests
+Quick test of a template for use in industry
+
+## Examples
+
+### Car garage
+
+### Plastering
+
+### 
