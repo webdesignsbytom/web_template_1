@@ -24,16 +24,42 @@ function HomePage() {
       <Navbar />
       {/* Main */}
       <main className='grid h-full p-1 items-center justify-center'>
-        <section>
-          <div className='grid text-center outline outline-2 outline-black rounded-xl bg-yellow-400 px-6 py-8'>
-            <article className=''>
-              <div>
-                <h2 className='text-xl font-semibold'>Welcome To</h2>
-                <h1 className='text-3xl font-poppins font-bold'>
-                  Kaliko Server
-                </h1>
-              </div>
-            </article>
+        <section className='grid gap-4'>
+          <h1 className='text-3xl font-bold text-center'>
+            Welcome to Plastering Services
+          </h1>
+          <p className='text-center'>
+            We provide professional plastering services for your home or
+            business.
+          </p>
+          <p className='text-center'>
+            We offer a wide range of services, including plastering, rendering,
+            and dry lining.
+          </p>
+          <p className='text-center'>
+            Our team of experienced plasterers will ensure that your project is
+            completed to the highest standards.
+          </p>
+          <p className='text-center'>
+            Contact us today for a free quote or to discuss your requirements.
+          </p>
+          <div className='grid gap-4 justify-center'>
+            <Link
+              to='/quote'
+              id='/quote'
+              onClick={navigateToPage}
+              className='btn btn-primary'
+            >
+              Get a Quote
+            </Link>
+            <Link
+              to='/contact'
+              id='/contact'
+              onClick={navigateToPage}
+              className='btn btn-secondary'
+            >
+              Contact Us
+            </Link>
           </div>
         </section>
       </main>
