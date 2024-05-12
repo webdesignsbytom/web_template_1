@@ -5,11 +5,13 @@ import LoginPage from './users/login/LoginPage';
 import RegisterPage from './users/register/RegisterPage';
 import TestPage from './pages/test/TestPage';
 import Error404 from './pages/error/Error404';
+import QuotePage from './pages/quote/QuotePage';
 
 function App() {
   return (
     <Routes>
       <Route path='/' index element={<HomePage />} />
+      <Route path='/quote' element={<QuotePage />} />
       <Route path='/login' element={<LoginPage />} />
       <Route path='/sign-up' element={<RegisterPage />} />
       <Route path='/test' element={<TestPage />} />
